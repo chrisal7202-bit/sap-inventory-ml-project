@@ -27,9 +27,7 @@ Segmentazione (divisione dei prodotti in 3 archetipi commerciali distinti):
 - Cluster 1 (99 MLN di prodotti): Articoli stabili ma ad alto rischio di overstock.
 - Cluster 2 (12 MLN di prodotti): Codici dormienti/obsoleti ad alto valore accumulato ed in forte svendita.
 
-<p align="center">
-  <img src="grafico_metodo_gomito.png" alt="Metodo del Gomito" width="70%">
-</p>
+![Metodo del Gomito](grafico_metodo_gomito.png)
 
 Fase 4: Business Intelligence & Visualizzazione Interattiva
 Strumenti utilizzati:Power BI Desktop, formule DAX.
@@ -37,9 +35,7 @@ Attività:- Creazione di una dashboard manageriale dinamica. Pulizia finale degl
          - Sviluppo di misure DAX, attraverso cui la dashboard calcola l'incidenza percentuale di ciascun cluster e il tasso di svalutazione della merce.
 Questa impostazione interattiva rappresenta uno strumento decisionale immediato: basta un clic sul grafico per isolare i 15 codici critici e quantificare all'istante il risparmio economico potenziale, consentendo all'ufficio acquisti di bloccare i riordini inefficienti o pianificare liquidazioni mirate senza perdere tempo in controlli manuali.
 
-<p align="center">
-  <img src="dashboard_powerbi.png" alt="Dashboard Power BI" width="90%">
-</p>
+![Dashboard Power BI](dashboard_powerbi.png)
 
  Struttura dei File nel Repository
 - esplora_dati.py: Script Python per la radiografia iniziale del database.
