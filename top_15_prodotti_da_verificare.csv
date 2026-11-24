@@ -1,0 +1,16 @@
+name_normalized,weightInGms,name,Category,mrp,discountPercent,availableQuantity,discountedSellingPrice,outOfStock,quantity,Stock_Value,Unit_Discount,Total_Stock_Discount,Discount_Rate,Cluster
+borges extra light olive oil bottle,2000,Borges Extra Light Olive Oil Bottle ,Cooking Essentials,260000.0,46.0,12,139900.0,False,4,1678800,120100.0,1441200,0.4619230769230769,0
+dhara filtered groundnut oil (jar),5000,Dhara Filtered Groundnut Oil (Jar),Cooking Essentials,105000.0,0.5,16,104250.0,False,20,1662000,750.0,18000,0.0107142857142857,0
+praakritik natural desi gir cow a2 ghee,540,Praakritik Natural Desi Gir Cow A2 Ghee,Cooking Essentials,145000.0,10.0,12,130500.0,False,1080,1566000,14500.0,174000,0.1,0
+saffola gold (jar),5000,Saffola Gold (Jar),Cooking Essentials,124000.0,0.0,12,124000.0,False,10,1488000,0.0,0,0.0,0
+dhara kachi ghani mustard oil jar,5000,Dhara Kachi Ghani Mustard Oil Jar,Cooking Essentials,125000.0,8.0,12,114300.0,False,10,1371600,10700.0,128400,0.0856,0
+fortune rice bran health oil (jar),5000,Fortune Rice Bran Health Oil (Jar),Cooking Essentials,105000.0,1.0,12,103900.0,False,10,1246800,1100.0,13200,0.0104761904761904,0
+fortune soyabean oil,5000,Fortune Soyabean Oil,Cooking Essentials,100500.0,0.0,12,99900.0,False,10,1198800,600.0,7200,0.0059701492537313,0
+dhara health refined sun flower oil jar,5000,Dhara Health Refined Sun Flower Oil Jar,Cooking Essentials,120000.0,18.0,12,98400.0,False,10,1180800,21600.0,259200,0.18,0
+nestle nestle nan pro follow-up formula,400,Nestle Nestle Nan Pro Follow-Up Formula,Packaged Food,65000.0,0.0,18,65000.0,False,1200,1170000,0.0,0,0.0,0
+fortune sunlite refined sunflower (jar),5000,Fortune Sunlite Refined Sunflower (Jar),Cooking Essentials,92500.0,0.0,12,92500.0,False,10,1110000,0.0,0,0.0,0
+pampers premium care pants - medium,54,Pampers Premium Care Pants - Medium,Personal Care,109900.0,18.0,12,89900.0,False,108,1078800,20000.0,240000,0.1819836214740673,0
+godrej yummiez chicken punjabi tikka,360,Godrej Yummiez Chicken Punjabi Tikka ,Cooking Essentials,29500.0,9.0,36,26600.0,False,2160,957600,2900.0,104400,0.0983050847457627,0
+bagrry's fruit fibre muesli mixed fruit,1000,Bagrry's Fruit Fibre Muesli Mixed Fruit ,Packaged Food,59500.0,0.0,15,59500.0,False,3,892500,0.0,0,0.0,0
+kelloggs chocos protein and fibre of 1 roti,1200,Kelloggs Chocos Protein And Fibre Of 1 Roti,Packaged Food,49900.0,11.0,18,44400.0,False,3,799200,5500.0,99000,0.1102204408817635,0
+japanese choice udon noodles,250,Japanese Choice Udon Noodles,Cooking Essentials,29500.0,9.0,30,26600.0,False,1250,798000,2900.0,87000,0.0983050847457627,0

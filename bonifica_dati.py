@@ -8,10 +8,13 @@ df=pd.read_csv("zepto_preparato.csv")
 print(f"Dimensione ORIGINALE del dataset:{df.shape[0]} righe.\n")
 
 #consolidare le colonne quando si uniscono i prodotti con stesso nome
-regole_consolidamento={'Category':'first','mrp':'mean','discountPercent':'mean','availableQuantity':'sum','discountedSellingPrice':'mean','weightInGms':'first','outOfStock':'first','quantity':'sum','Stock_Value':'sum','Discount_Value':'mean'}
+regole_consolidamento={'name':'first','Category':'first','mrp':'mean','discountPercent':'mean','availableQuantity':'sum','discountedSellingPrice':'mean','outOfStock':'first','quantity':'sum','Stock_Value':'sum','Unit_Discount':'mean','Total_Stock_Discount':'sum'}
 
-#raggruppamento per 'name' e Data Consolidation
-df_bonificato=df.groupby('name').agg(regole_consolidamento).reset_index()
+#raggruppamento per chiave_prodotto e Data Consolidation
+df['name_normalized']=df['name'].str.strip().str.lower().str.replace(r'\s+',' ',regex=True)
+chiave_prodotto=['name_normalized','weightInGms']
+df_bonificato=df.groupby(chiave_prodotto).agg(regole_consolidamento).reset_index()
+df_bonificato['Discount_Rate']=df_bonificato['Total_Stock_Discount']/(df_bonificato['Stock_Value']+df_bonificato['Total_Stock_Discount']).replace(0,float('nan'))
 print("--- BONIFICA COMPLETATA ---")
 print(f"Dimensione del dataset bonificato: {df_bonificato.shape[0]} righe.")
 

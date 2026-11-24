@@ -7,7 +7,9 @@ df=pd.read_csv("zepto_v2.csv", encoding="latin1")
 df['Stock_Value']=df['availableQuantity']*df['discountedSellingPrice']
 
 #sconto effettivo in valuta
-df['Discount_Value']=df['mrp']-df['discountedSellingPrice']
+df['Unit_Discount']=df['mrp']-df['discountedSellingPrice']
+df['Total_Stock_Discount']=df['Unit_Discount']*df['availableQuantity']
+df['Discount_Rate']=df['Unit_Discount']/df['mrp'].replace(0,float('nan'))
 
 #analisi del capitale immobilizzato
 capitale_totale=df['Stock_Value'].sum()
